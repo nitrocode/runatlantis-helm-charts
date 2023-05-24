@@ -19,7 +19,8 @@
       "fileMatch": ["\\.yaml$"],
       "matchStrings": [
         "# ?renovate datasource=(?<datasource>.+?) depName=(?<depName>.+)\\n.+: [\"']?v(?<currentValue>.+?)[\"']?\\n"
-      ]
+      ],
+      "datasourceTemplate": "docker"
     }
   ]
 }
